@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">KM Test</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="image">Image</string>
     <string name="hint_name">Name</string>
     <string name="hint_palindrome">Palindrome</string>
@@ -14,4 +12,5 @@
     <string name="txt_third_screen">Third Screen</string>
     <string name="email_example">EMAIL@EMAIL.COM</string>
     <string name="example_users_name">Firstname Lastname</string>
+    <string name="user_name">%s %s</string>
 </resources>
