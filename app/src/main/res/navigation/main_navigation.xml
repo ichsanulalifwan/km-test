@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstScreenFragment"
-        android:name="com.app.kmtest.FirstScreenFragment"
+        android:name="com.app.kmtest.ui.firstscreen.FirstScreenFragment"
         android:label="fragment_first_screen"
         tools:layout="@layout/fragment_first_screen">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/secondScreenFragment"
-        android:name="com.app.kmtest.SecondScreenFragment"
+        android:name="com.app.kmtest.ui.secondscreen.SecondScreenFragment"
         android:label="fragment_second_screen"
         tools:layout="@layout/fragment_second_screen">
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/thirdScreenFragment"
-        android:name="com.app.kmtest.ThirdScreenFragment"
+        android:name="com.app.kmtest.ui.thirdscreen.ThirdScreenFragment"
         android:label="fragment_third_screen"
         tools:layout="@layout/fragment_third_screen">
         <action

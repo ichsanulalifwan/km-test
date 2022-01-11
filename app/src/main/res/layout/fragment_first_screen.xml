@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:fitsSystemWindows="true"
-    tools:context=".FirstScreenFragment">
+    tools:context=".ui.firstscreen.FirstScreenFragment">
 
     <ImageView
         android:id="@+id/img_new_user"
