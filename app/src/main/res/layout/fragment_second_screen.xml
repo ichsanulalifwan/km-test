@@ -18,7 +18,7 @@
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/white"
+            android:backgroundTint="@color/white"
             android:textAlignment="center"
             app:navigationIcon="@drawable/ic_round_arrow_back_ios_24">
 
