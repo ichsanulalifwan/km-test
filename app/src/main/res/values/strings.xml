@@ -7,4 +7,8 @@
     <string name="hint_palindrome">Palindrome</string>
     <string name="txt_check">Check</string>
     <string name="txt_next">Next</string>
+    <string name="txt_second_screen">Second Screen</string>
+    <string name="txt_btn_choose_a_user">Choose a User</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_selected_user_name">Selected User Name</string>
 </resources>
