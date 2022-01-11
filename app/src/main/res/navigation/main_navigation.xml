@@ -5,20 +5,36 @@
     android:id="@+id/main_navigation"
     app:startDestination="@id/firstScreenFragment">
 
-
     <fragment
         android:id="@+id/firstScreenFragment"
         android:name="com.app.kmtest.FirstScreenFragment"
         android:label="fragment_first_screen"
-        tools:layout="@layout/fragment_first_screen" />
+        tools:layout="@layout/fragment_first_screen">
+        <action
+            android:id="@+id/action_firstScreenFragment_to_secondScreenFragment"
+            app:destination="@id/secondScreenFragment" />
+    </fragment>
+
     <fragment
         android:id="@+id/secondScreenFragment"
         android:name="com.app.kmtest.SecondScreenFragment"
         android:label="fragment_second_screen"
-        tools:layout="@layout/fragment_second_screen" />
+        tools:layout="@layout/fragment_second_screen">
+        <action
+            android:id="@+id/action_secondScreenFragment_to_thirdScreenFragment"
+            app:destination="@id/thirdScreenFragment" />
+    </fragment>
+
     <fragment
         android:id="@+id/thirdScreenFragment"
         android:name="com.app.kmtest.ThirdScreenFragment"
         android:label="fragment_third_screen"
-        tools:layout="@layout/fragment_third_screen" />
+        tools:layout="@layout/fragment_third_screen">
+        <action
+            android:id="@+id/action_thirdScreenFragment_to_secondScreenFragment"
+            app:destination="@id/secondScreenFragment"
+            app:popUpTo="@id/secondScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
 </navigation>
