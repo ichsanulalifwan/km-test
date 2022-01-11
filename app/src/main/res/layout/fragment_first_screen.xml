@@ -30,7 +30,7 @@
         android:background="@drawable/shape_rounded_edittext"
         android:fontFamily="@font/poppins"
         android:hint="@string/hint_name"
-        android:imeOptions="actionDone"
+        android:imeOptions="actionNext"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:padding="16dp"
