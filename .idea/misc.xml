@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/asus/Documents/Android Project/KMTest/app/src/main/res/drawable/ic_round_arrow_back_ios_24.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/asus/Documents/Android Project/KMTest/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/asus/Documents/Android Project/KMTest/app/src/main/res/layout/fragment_first_screen.xml" value="0.536" />
       </map>
     </option>
   </component>
