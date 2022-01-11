@@ -2,4 +2,9 @@
     <string name="app_name">KM Test</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">Image</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_palindrome">Palindrome</string>
+    <string name="txt_check">Check</string>
+    <string name="txt_next">Next</string>
 </resources>
